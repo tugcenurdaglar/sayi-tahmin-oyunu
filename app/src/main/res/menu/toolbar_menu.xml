@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_bilgi"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Bilgi"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_profil"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profil"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_ayarlar"
+        android:title="Ayarlar"
+        app:showAsAction="never" >
+        <menu />
+    </item>
+    <item
+        android:id="@+id/action_cikis"
+        android:title="Çıkış"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="Switch"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always" />
+</menu>
